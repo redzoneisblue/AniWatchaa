@@ -6,9 +6,13 @@ import MainView from './MainView.vue'
 
 <template>
 
-  <!-- <Player /> -->
-
+  <Player />
+<!-- 
   <Header />
-  <MainView />
+  <MainView /> -->
 
 </template>
+
+<style scoped>
+
+</style>

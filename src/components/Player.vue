@@ -1,8 +1,13 @@
 <script setup>
 import {ref} from 'vue'
 
-const video = ref('tv/94605/2/1')
-const embedUrl = `https://vidlink.pro/${video.value}?primaryColor=ff0000&secondaryColor=a2a2a2&iconColor=eefdec&icons=default&player=default&title=true&poster=true&autoplay=false&nextbutton=false`
+const video = ref({
+    title: "yao-shen-ji-8th-season-2024",
+    epNo: "23"
+})
+// const embedUrl = `https://anime.autoembed.cc/embed/${video.title}-episode-${video.number}`
+// console.log(video.value)
+const embedUrl = `https://anime.autoembed.cc/embed/yao-shen-ji-8th-season-2024-episode-23`
 console.log(video.value)
 
 </script>
@@ -15,6 +20,9 @@ console.log(video.value)
 
 <style lang="scss" scoped>
 iframe {
+    position: relative;
+    top: 15rem;
     scale: 2;
+    align-self: center;
 }
 </style>

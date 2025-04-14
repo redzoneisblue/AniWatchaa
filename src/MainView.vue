@@ -12,7 +12,6 @@ import Card from './components/Card.vue'
         <main>
             <!-- card div -->
             <Card />
-            
         </main>
     </div>
 
